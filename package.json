@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/AGunnels/MongooseScraper/issues"
   },
-  "homepage": "https://github.com/AGunnels/MongooseScraper#readme"
+  "homepage": "https://github.com/AGunnels/MongooseScraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.1.4",
+    "morgan": "^1.9.0"
+  }
 }

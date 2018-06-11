@@ -28,7 +28,7 @@ router.get('/', function(req, res) {
 //   });
 // });
 
-// A GET request to scrape the Verge website
+// GET request to scrape the Verge website
 router.get('/scrape', function(req, res) {
     request('http://www.theverge.com/tech', function(error, response, html) {
         var $ = cheerio.load(html);
